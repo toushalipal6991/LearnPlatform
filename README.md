@@ -1,15 +1,12 @@
-# Machine Learning END-TO-END Project Using Flask API, Docker & AWS to Classify Bank :dollar: *Counterfeit* VS *Non-Counterfeit* Notes :dollar:
+# LearnPlatform COVID-19 Impact on Digital Learning
 
-## :cinema: Demo :point_down:
+## :point_down:Notebook for Proper Understanding of the Analysis
 
-![Demo](https://github.com/toushalipal6991/BankNoteCheck/blob/master/demo.gif)
-
-:round_pushpin: Production URL for availing this app :arrow_right: [Fake Note Detection](http://ec2-18-116-62-214.us-east-2.compute.amazonaws.com:8080/) (Note: This URL can only be availed if I connect to my AWS EC2 instance)
+[Notebook](https://colab.research.google.com/drive/1hwnhJwNnZMoh5lvxIuNPY2_V7It-STI5?usp=sharing)
 
 ## Aim of this Project
-- This project aims to classify Counterfeit and Non-Counterfeit Bank Notes using Machine Learning techniques.
-- This project was also *Containerized Using Docker*.
-- *Deployment* was done using *Flask API on an AWS EC2 instance*.
+- This project aims to analyze the impact of COVID-19 upon Digital Learning.
+- It also aims to analyse whether & how has COVID-19 impacted the access of diital learning  across different race/ethnicity/district demographics/broadband access etc.
 
 ## Datasets:-
 - Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
