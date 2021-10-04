@@ -1,4 +1,5 @@
 # LearnPlatform COVID-19 Impact on Digital Learning
+One of the very recent Kaggle Competitions, which was hosted by the Digital Learning Platform **LearnPlatform**.
 
 ## :point_down:Notebook for Proper Understanding of the Analysis
 
