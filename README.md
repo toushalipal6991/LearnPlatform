@@ -8,35 +8,23 @@
 - This project aims to analyze the impact of COVID-19 upon Digital Learning.
 - It also aims to analyse whether & how has COVID-19 impacted the access of diital learning  across different race/ethnicity/district demographics/broadband access etc.
 
-## Datasets:-
-- Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
-- Source :arrow_right: [Kaggle](https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data)
+## Datasets
+- Source :arrow_right: [Kaggle](https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning/overview)
+- Pre-processing and Data Cleaning :arrow_right: All data files were cleaned and NaN values were dealt.
 
-## :memo: HLD(High Level Design)
-- Features provided in the dataset are:-
-  * Variance
-  * Skewness
-  * Curtosis
-  * Entropy
-- EDA :arrow_right: After performing EDA on this dataset, it was easy to conclude that the features :arrow_right: Variance and Skewness are the most important features which will help us create a clear distinction between fake and genuine notes. For detailed analysis done via EDA, please refer the [BankNoteAuth.ipynb](https://github.com/toushalipal6991/BankNoteCheck/blob/master/BankNoteAuth.ipynb) file.
-- Train-Test split: The dataset was split into 70(train):30(test) ratio. No cross-validation set was created since the dataset is very small. It contains only 1372 data points.
-- Data Pre-processing :arrow_right: The features were simply Standardized.
-- Choosing the Machine Learning models :arrow_right: 3 different ML models were used for analysis and all 3 gave very good results.
-- Scoring used :arrow_right: was f1-score. Below table displays all 3 models and the f1-scores obtained:-
-![Table](https://github.com/toushalipal6991/BankNoteCheck/blob/master/f1-score-table.PNG)
-- **Support Vector Machine** resulted the highest f1-score of **1.0**.
-
-## Deployment using Flask API and AWS Containerization using Docker
-- A simple web-app has been built using this model (as shown in the Demo) and ***Flask API and Containerized using Docker***.
-- This web-app has also been ***Deployed into Production using Flask API on an AWS EC2 instance***.
-- Please refer my documentation [Flask_Docker_AWS_Procedures](https://github.com/toushalipal6991/BankNoteCheck/blob/master/Flask_Docker_AWS_Procedures.docx) to see how I deployed and containerized.
-- Using this web-app, you can enter variance,skewness,curtosis and entropy features extracted by you and the app will tell you if the Note is fake or genuine.
+## :memo: Some important Conclusions Drawn
+- All the places where the percentage of black/hispanic students is high, i.e. the percentage of Black/Hispanic students lie in the range [0.8,1], have a higher percentage of at-least 1 page-load event of a given product and on a single day.
+- mean engagement_index (Total page-load events per one thousand students of a given product and on a given day) drastically reduced in the months of June and July in every type of locality. And this is expected, because, COVID-19 hit the most in these months and the rise of COVID-19 cases took a steep curve starting from May-June-July.
+- The engegment_index started rising in the months after June-July, as compared to what they were, before June-July --> indicating that the quest of Digtal Learning and Usage of Digital learning platforms started rising post and during COVID after the dust started settling down.
+- COVID-19 has influcenced the online and distance learning to such an extent that, this trend of high dependency and interest on it is pretty likely to continue in future as well (pandemic or not).
+- North Dakota has the highest county_connections_ratio (`ratio` (residential fixed high-speed connections over 200 kbps in at least one direction/households) 
+- Districts of New York, Indiana and Illinois have the highest Percentage of students in the districts eligible for free or reduced-price lunch (i.e. in the range [0.8-1]).
+- Highest amount of Per-pupil total expenditure --> [32000-34000] has been done in districts of Rural areas.
+- usage of LC-Digital Learning Platforms was high, all throughout 2020.
+- Google LLC is the most used/favoured Company all throughout the states/districts/schools
 
 ## :file_folder: Libraries Used
-:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: Flask
+:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: bokeh
 
 ## :hammer_and_wrench: :toolbox: Tools and Softwares Used
 - Jupyter Notebook
-- Sublime Text
-- Docker
-- AWS
