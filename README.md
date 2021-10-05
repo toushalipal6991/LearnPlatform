@@ -25,7 +25,7 @@ One of the very recent Kaggle Competitions, which was hosted by the Digital Lear
 - Google LLC is the most used/favoured Company all throughout the states/districts/schools
 
 ## :file_folder: Libraries Used
-:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: bokeh
+:crayon: matplotlib :crayon: seaborn :crayon: numpy :crayon: pandas :crayon: prettytable :crayon: bokeh 
 
 ## :hammer_and_wrench: :toolbox: Tools and Softwares Used
 - Jupyter Notebook
